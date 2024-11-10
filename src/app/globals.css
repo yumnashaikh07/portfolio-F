@@ -2,26 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* .footer-bg{
+  background-color: #767676;
+  background-color: #d4d3ca
+} */
+/* .headerxfooterbg{
+  background-color: #d4d3ca */
+  /* background-color: #e5dfd7 */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* .only-header{
+  background: linear-gradient(to top,#7d7a7a,#c1b5b5,#cac7c7, #bcb5b5,#93d4eb,#4fc9df,rgb(42, 174, 174) );
+  background-color: #d2cb8e;
+  background-color:#e7d5d5
+} */
+
+/* .keytrait{
+  transition:opacity 1s ease-in-out;
+  opacity: 1;
+} */
+/* .keytrait-active{
+  opacity:1;
+} */
+
+/* HEROSECTION CSS */
+/* .pfp-div {
+  display: flex;
+  align-items: center;
+  position: relative; 
+  overflow: hidden; 
+}
+.pfp-slide{
+  position: relative;
+  animation: slideIn 3s forwards;
+  opacity: 0;
+} 
+@keyframes slideIn{
+  from{
+    transform: translateY(-100%);
+    opacity:0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
+.hero-div{
+    display: flex;  
+   flex-direction: column;  
+   overflow: hidden; 
+  align-items: center; 
+margin-right: 100px;
+}
+.hero-slide{
+  margin-top:  50px;
+  
+  transform: translateX(100%); /* Start off-screen */
+  animation: slideIn 3s forwards;
+}
+@keyframes slideIn {
+  0%{
+    transform: translateX(100%);
+    opacity:0
+  }
+  100%{
+    transform: translateX(0%);
+    opacity:1
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
