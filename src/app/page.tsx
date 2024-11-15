@@ -1,7 +1,7 @@
-import Servicecard from "@/components/servicecard";
-import Herosection from "@/components/herosection";
-import Skill from "@/components/skill";
-import KeyTraits from "@/components/keytraits";
+import Servicecard from "@/app/components/servicecard";
+import Herosection from "@/app/components/herosection";
+import Skill from "@/app/components/skill";
+import KeyTraits from "@/app/components/keytraits";
 export default function Home() {
   return (
     <main >
