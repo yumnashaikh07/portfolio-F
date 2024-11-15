@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-export default function ()
+export default function Herosection ()
 {
     return(
         <main className=" md:h-[600px] h-[900px] my-20"> 

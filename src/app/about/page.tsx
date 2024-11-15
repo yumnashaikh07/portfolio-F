@@ -29,12 +29,12 @@ function About() {
             </p>
             <p className="text-lg my-5 font-thin">
               I am passionate about using my skills to help businesses elevate
-              their online presence. Whether you're a startup needing a fresh
-              website or an established brand seeking a redesign, I'm dedicated
+              their online presence. Whether you are a startup needing a fresh
+              website or an established brand seeking a redesign, I am dedicated
               to turning your vision into reality.
             </p>
             <p className="text-lg my-5 font-thin">
-              Let's connect and explore how we can collaborate to enhance your
+              Let&apos;s connect and explore how we can collaborate to enhance your
               business through impactful web development!
             </p>
           </div>

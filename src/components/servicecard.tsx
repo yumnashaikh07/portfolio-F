@@ -1,9 +1,7 @@
 import React from "react";
 import {
-  FaComment,
   FaGlobe,
   FaLightbulb,
-  FaBullhorn,
   FaPaintBrush,
   FaSearch,
 } from "react-icons/fa";
